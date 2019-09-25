@@ -75,4 +75,4 @@ bill = np.array([["Operator","John Wick"],
                 ["GRAND TOTAL","$ "+str(round(grand_total,2))]])
 
 table = tabulate(bill,tablefmt="fancy_grid",numalign=u'decimal')
-print(table)
+#print(table)
